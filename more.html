@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Founder + Creative Director</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #7b7979; /* Light background */
+      color: #333; /* Dark text for readability */
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 50px auto;
+    }
+
+    .section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      background-color: #ffffff;
+      transition: all 0.3s ease;
+    }
+
+    .section:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Image Section */
+    .image-container {
+      flex: 1;
+      max-width: 450px;
+      min-width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Text Section */
+    .text-section {
+      flex: 1;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .text-section h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #2a2a2a;
+      margin-bottom: 20px;
+    }
+
+    .text-section h2 {
+      font-size: 1.5rem;
+      color: #6c757d;
+      margin-bottom: 20px;
+    }
+
+    .text-section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #495057;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .text-section {
+        padding: 0;
+      }
+
+      .image-container {
+        max-width: 80%;
+        margin-bottom: 20px;
+      }
+
+      .text-section h1 {
+        font-size: 2rem;
+      }
+
+      .text-section h2 {
+        font-size: 1.3rem;
+      }
+
+      .text-section p {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .text-section h1 {
+        font-size: 1.8rem;
+      }
+
+      .text-section h2 {
+        font-size: 1.2rem;
+      }
+
+      .text-section p {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="section">
+      <!-- Text Section -->
+      <div class="text-section">
+        <h1>Say It Loud, Say It Right</h1>
+        <h2>Samayra</h2>
+        <p>
+          I am a native Indian with a bachelor’s in Business from IPU, and completed
+          my digital and social media marketing from Toronto. I began my career as
+          a freelancer. I found a deeper passion for social media and overall
+          business growth, so I decided to use my social media knowledge to help
+          other businesses succeed. This is why I started Sociallore, the best
+          comprehensive solution for all social media and marketing needs!
+        </p>
+        <p>
+          I am overjoyed by the growth we have accomplished in the past one year
+          and am so grateful and excited to see where my business will go in the
+          future! Let’s create excitement together!
+        </p>
+      </div>
+
+      <!-- Image Section -->
+      <div class="image-container">
+        <img src="samm.jpg" alt="Samayra" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
